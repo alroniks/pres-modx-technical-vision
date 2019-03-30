@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The MODX Technical Vision</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+        .slide::after {
+            background-image: url('pictures/ribbon.svg');
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>The MODX Technical Vision</h1>
+        <p>Ivan Klimchuk, Sterc.</p>
+    </header>
+
+    <section class="slide" id="cover">
+        <h2>The MODX Technical Vision</h2>
+        <p>Several ideas about MODX technical roadmap.</p>
+        <figure>
+            <img class="cover" src="pictures/cover-new.jpg" alt="Several ideas about MODX technical roadmap.">
+        </figure>
+        <style>
+            #cover h2 {
+                margin: 150px 0 0;
+                /*color: white;*/
+                text-align: center;
+                font-size: 70px;
+            }
+
+            #cover p {
+                margin: 10px 0 0;
+                text-align: center;
+                /*color: white;*/
+                font-style: italic;
+                font-size: 30px;
+            }
+
+            #cover p a {
+                color: white;
+            }
+            #cover img {
+                opacity: 0.3;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="iam">
+        <h2>Ivan Klimchuk</h2>
+        <br>
+        <ol>
+            <li>Started work with MODX in 2010</li>
+            <li class="next">Core Developer, Integrator</li>
+            <li class="next">Made 3 MODX meetups in Minsk, one MODXpo</li>
+            <li class="next">Started MODX Digest and Modcast (on Russian)</li>
+        </ol>
+        <img src="pictures/iam.png" alt="Ivan Klimchuk">
+        <style>
+            #iam img {
+                width: 12em;
+                height: 12em;
+                position: absolute;
+                right: 3em;
+                top: 6em;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="when">
+        <h2>MODX 3</h2>
+        <h3>When?</h3>
+        <figure>
+            <img class="cover" src="pictures/fry.png" alt="Fry">
+        </figure>
+        <style>
+            #when h2 {
+                font-size: 100px;
+                color: white;
+            }
+            #when h3 {
+                font-size: 80px;
+                color: white;
+            }
+            #when img {
+                width: 100%;
+            }
+        </style>>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout">2013 - 2019<br>6 years!</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Technical problems</h2>
+        <ul style="font-size: 30px;">
+            <li>Old PHP 5.2-like code</li>
+            <li>Code in the database</li>
+            <li>Own templating</li>
+            <li>Unused functions</li>
+            <li>Huge codebase</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Human problems</h2>
+        <ul style="font-size: 30px;">
+            <li class="next">Lack of code owners</li>
+            <li class="next">Lack of integrators</li>
+            <li class="next">Lack of developers</li>
+        </ul>
+    </section>
+
+    <section class="slide" id="dx">
+        <h2 class="shout">DX</h2>
+    </section>
+
+    <section class="slide" id="relevant">
+        <h2>Keeping MODX Relevant</h2>
+        <ul style="font-size: 30px;">
+            <li class="next"><a href="https://medium.com/@drumshaman/keeping-modx-relevant-part-one-42dc6632f86b">Part one</a></li
+            >
+            <li class="next"><a href="https://medium.com/@drumshaman/keeping-modx-relevant-part-two-15a37eab5b48">Part two</a></li>
+            <li class="next"><a href="https://medium.com/@drumshaman/keeping-modx-relevant-part-three-692f42d2d8b0">Part Three</a></li>
+        </ul>
+        <p class="note">From 2014</p>
+    </section>
+
+    <section class="slide" id="mab">
+        <h3>MAB Recomendations</h3>
+        <ul>
+            <li><a href="https://github.com/modxcms/mab-recommendations/blob/master/01-replace-3rd-party-libraries-with-composer-dependencies.md">MAB-01: Replace 3rd Party Libraries in Core with Composer Dependencies</a></li>
+            <li class="next"><a href="https://github.com/modxcms/mab-recommendations/blob/master/02-php-di-adoption.md">MAB-02: Adopt PHP-DI as Dependency Injection Container</a></li>
+            <li class="next"><a href="https://github.com/modxcms/mab-recommendations/blob/master/03-xpdo-3-model-refactor.md">MAB-03: Refactor Data Model using xPDO 3.x</a></li>
+            <li class="next"><a href="https://github.com/modxcms/mab-recommendations/blob/master/04-slim-refactor.md">MAB-04: Refactor MODX Revolution 3.x as Slim 3.x App</a></li>
+            <li class="next"><a href="https://github.com/modxcms/mab-recommendations/blob/master/05-psr3-logging-standard.md">MAB-05: PSR-3 Logging Standard</a></li>
+            <li class="next"><a href="https://github.com/modxcms/mab-recommendations/blob/master/06-restful-api-move-from-extjs.md">MAB-06: A RESTful API & Steps to move away from ExtJS</a></li>
+        </ul>
+    </section>
+
+    <section class="slide" id="team">
+        <h2>The shadow team</h2>
+        <div class="columns two">
+            <p><strong>Ivan Bochkarev</strong><br><img src="pictures/ib.jpg" alt="Ivan Bochkarev"></p>
+            <p><strong>Ruslan Aleev</strong><br><img src="pictures/ra.jpg" alt="Ruslan Aleev"></p>
+        </div>
+        <style>
+            #team img {
+                max-width: 300px;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="vs">
+        <h2 class="shout">MODX 3 or MODX Next?</h2>
+        <style>
+            #vs .shout {
+                font-size: 90px;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <h2>What to do?</h2>
+        <ul style="font-size: 30px;">
+            <li>Specs and guidelines</li>
+            <li class="next">Keys format in lexicons and permissions</li>
+            <li class="next">Grouping permissions</li>
+            <li class="next">PSR-4 refactoring (Jason)</li>
+            <li class="next">PSR-3 logger</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Decoupling</h2>
+        <ul style="font-size: 30px;">
+            <li>Core</li>
+            <li class="next">Move away Template and Parser</li>
+            <li class="next">New Installer (Setup)</li>
+            <li class="next">API (REST) Package</li>
+            <li class="next">Old Manager (ExtJS)</li>
+            <li class="next">New Manager (Vanilla JS, Vue, React, etc.)</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Decoupling the Core</h2>
+        <ul style="font-size: 30px;">
+            <li class="next">Remove/Move rarely used functions</li>
+            <li class="next">Logically group part of the core</li>
+            <li class="next">Clean up a mess</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <h2>Advantages</h2>
+        <ul style="font-size: 30px;">
+            <li>More faster development cycle</li>
+            <li class="next">Independent rules for contributing</li>
+            <li class="next">Test coverage</li>
+            <li class="next">Power of Composer</li>
+            <li class="next">Team splitting and parallel development</li>
+        </ul>
+    </section>
+
+    <section class="slide">
+        <p class="shout"><a href="https://github.com/composer/installers/pull/423">Composer Installer</a></p>
+    </section>
+
+    <section class="slide" id="nextmodx">
+        <p class="shout"><a href="https://github.com/composer/installers/pull/423">https://github.com/nextmodx</a></p>
+        <style>
+            #nextmodx .shout {
+                font-size: 50px;
+            }
+        </style>
+    </section>
+
+    <section class="slide" id="see-more">
+        <h2 class="shout">
+            Thank you!
+        </h2>
+        <style>
+            #see-more h2 {
+                font-size: 100px
+            }
+        </style>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.min.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
